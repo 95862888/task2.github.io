@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Task 2</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<img id="logo" src="img/PeepoClown.jpg" alt="PeepoClown">
+			<div id="siteName">
+				<p>Some Name</p>
+			</div>
+		</div>
+	</header>
+	<nav>
+		<ul id="nav-menu">
+			<li class="item1"><a href="https://www.google.ru/">Link to Google 1</a></li>
+			<li class="item2"><a href="https://www.google.ru/">Link to Google 2</a></li>
+			<li class="item3"><a href="https://www.google.ru/">Link to Google 3</a></li>
+		</ul>
+	</nav>
+	<div class="main">
+		<div class="wrapper">
+			<h2>Links list</h2>
+			<ol class="main-menu">
+				<li class="item1"><a href="http://example.com/index.html">link for example main</a></li>
+				<li class="item2"><a href="https://example.com/index.html">link to page using https protocol</a></li>
+				<li class="item3"><a href="ftp://test.com/img/picture1">ftp to download the picture</a></li>
+				<li class="item4"><a href="ftp://login:pass@test.com:21/img/picture1">ftp to download the picture with log in</a></li>
+				<li class="item5"><a href="http://example2.com/inedx.html#anchor">link to the anchor on other site</a></li>
+				<li class="item6"><a href="#anchor">link to the anchor on current page</a></li>
+				<li class="item7"><a href="http://example.com?product=phone&color=gold">URL with two op</a></li>
+				<li class="item8"><a href="">?</a></li>
+				<li class="item9"><a>link without href</a></li>
+				<li class="item10"><a href="#">link with empty href</a></li>
+				<li class="item11"><a rel="nofollow" href="">forbidden to go to searchers</a></li>
+					<li class="item12"><a href="" rel="noindex">noindexed link</a></li>
+				<li class="item13">
+					<p>random <a href="#">link</a> text random text random text</p>
+				</li>
+				<li class="item14"><a href=""><img src="img/picture1" alt="picture1"></a></li>
+				<li class="item15">
+					<map name="Navigation">
+						<area alt="picture1" shape="rect" coords="0,0,100,100" href="#">
+						<area alt="picture1" shape="circle" coords="200,200,100" href="#">
+					</map>
+					<img usemap="#Navigation" src="img/picture1" alt="picture1">
+				</li>
+				<li class="item16"><a href="./page.html">a relative link to a page in curr directory</a></li>
+				<li class="item17"><a href="/about/page.html">a relative link to a page in "about" directory</a></li>
+				<li class="item18"><a href="../page.html">link to a page in the directory one level above</a></li>
+				<li class="item19"><a href="../../page.html">link to a page in the directory two levels above</a></li>
+				<li class="item20"><a href="/index.html">short link to main page</a></li>
+				<li class="item21"><a href="/pages/page.html">short link inner page</a></li>
+			</ol>
+
+			<h2>Table</h2>
+			<p>idk how to color merged cells correct</p>
+			<table>
+				<tr>
+				    <td>00</td>
+				    <td>01</td>
+				    <td>02</td>
+				    <td>03</td>
+				    <td>04</td>
+				</tr>
+				<tr>
+				    <td rowspan="2" colspan="2">10</td>
+				    <td>12</td>
+				    <td colspan="2">13</td>
+				</tr>
+				<tr>
+				    <td>22</td>
+				    <td rowspan="3">23</td>
+				    <td>24</td>
+				</tr>
+				<tr>
+				    <td>30</td>
+				    <td>31</td>
+				    <td>32</td>
+				    <td>34</td>
+				</tr>
+				<tr>
+				    <td>40</td>
+				    <td>41</td>
+				    <td>42</td>
+				    <td>44</td>
+				</tr>
+			</table>
+
+			<h2>Form</h2>
+			<form action="URL">
+				<div>
+					<label for="name">Name:</label>
+		      		<input type="text" id="name" name="user_name">
+
+		      		<label for="mail">E-mail:</label>
+		      		<input type="email" id="mail" name="user_mail">
+
+		      		<label for="date">Birthday: </label>
+		            <input type="date" id="date" name="date"/>
+	        	</div>
+
+	        	<div>
+		      		<input type="radio" id="op1"
+				    	name="contact" value="male">
+				    <label for="op1">Male</label>
+				    <input type="radio" id="op2"
+				    	name="contact" value="female">
+				    <label for="op2">Female</label>
+				</div>
+
+				<div>
+			    <input type="radio" id="op21"
+			    	name="limbs" value="1">
+			    <label for="op21">radioButton1</label>
+			    <input type="radio" id="op22"
+			    	name="limbs" value="2">
+			    <label for="op22">radioButton2</label>
+			    <input type="radio" id="op23"
+			    	name="limbs" value="3">
+			    <label for="op23">radioButton3</label>
+			    <input type="radio" id="op24"
+			    	name="limbs" value="4">
+			    <label for="op24">radioButton4</label>
+				</div>
+
+				<div>
+			    <input type="checkbox" id="fireproofMan" name="fireproof" value="fireproof">
+	    		<label for="fireproofMan">a y fireproof?</label>
+	    		<input type="checkbox" id="bigBrainMan" name="bigBrain" value="bigBrain">
+			    <label for="bigBrainMan">a y a bigBrain?</label>
+			    <input type="checkbox" id="postmanMan" name="postman" value="postman">
+			    <label for="postmanMan">a y a postman?</label>
+				</div>
+
+			    <p><b>yr bioraphy</b></p>
+	  			<p><textarea name="bioraphy"></textarea></p>
+
+	  			<input type="checkbox" id="contractID" name="contract" value="contract" required>
+			    <label for="contractID">I have read the contract</label>
+
+			    <input type="submit" value="submit">
+			</form>
+		</div>
+	</div>
+	<footer>
+		<p>(c) Kirill Astashkin 2021</p>
+	</footer>
+</body>
+</html>

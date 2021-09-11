@@ -1,0 +1,89 @@
+div {
+	padding: 20px 0 0 20px;
+	box-sizing: border-box;
+}
+.main {
+	padding: 0 0 0 0;
+	margin:  0 0 0 0;
+}
+.wrapper {
+	height:  100%;
+	padding: 0 0 0 0;
+	max-width:  960px;
+	margin: 0 auto 0 auto;
+	border:  1px solid black;
+}
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+header {
+	display:  block;
+	height:  60px;
+	background-color: #30beff;
+}
+nav {
+	background-color: #32a852;
+	margin-top:  20px;
+}
+ul {
+	border: 1px solid black;
+	display:  block;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+td {
+	border: 1px solid black;
+	padding:  10px;
+}
+tr:nth-child(odd) {
+	background-color: #ffda85;
+}
+#nav-menu {
+	height:  100%;
+	max-width: 960px;
+	margin:  0 auto 0 auto;
+}
+#nav-menu li {
+	padding:  10px 0 10px 0;
+	display:  inline-block;
+	width:  33%;
+}
+#nav-menu li a {
+	display:  block;
+}
+a {
+	text-decoration: none;
+}
+#siteName {
+	padding:  0 0 0 0;
+}
+#siteName .wrapper p {
+	height:  100%;
+	line-height: 60px;
+}
+#logo {
+	width: 50px;
+	height:  50px;
+	float:  left;
+	margin: 5px 0px 5px 5px;
+}
+.clearfix::after {
+	clear:  both;
+    content: "";
+    display: table;
+}
+footer {
+	background-color: #30beff;
+	height:  60px;
+	text-align: center;
+}
+footer p {
+	height:  100%;
+	line-height: 60px;
+}
+.main .wrapper {
+	margin-top:  20px;
+	padding: 0 0 20px 20px;
+}
