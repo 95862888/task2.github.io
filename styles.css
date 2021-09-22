@@ -49,12 +49,15 @@ tr:nth-child(odd) {
 	margin:  0 auto 0 auto;
 }
 #nav-menu li {
-	padding:  10px 0 10px 0;
 	display:  inline-block;
 	width:  33%;
 }
 #nav-menu li a {
+	padding: 10px;
 	display:  block;
+}
+#nav-menu li a:hover {
+	background-color: #009443;
 }
 a {
 	text-align:  center;
